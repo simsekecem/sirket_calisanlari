@@ -31,9 +31,9 @@ print(issiz3)
 print("...........")
 
 # Calisan sinifindan nesneler olusturma
-calisan1 = Calisan("37024678901", "Ahmet", "Yılmaz", 30, "Erkek", "Türk", "IT", 3, 12000)
-calisan2 = Calisan("56745432109", "Ayşe", "Kara", 28, "Kadın", "Türk", "Muhasebe", 5, 20000)
-calisan3 = Calisan("17498901234", "Mehmet", "Demir", 35, "Erkek", "Türk", "Üretim", 2, 10000)
+calisan1 = Calisan("37024678901", "Ahmet", "Yılmaz", 30, "Erkek", "Türk", "IT", 7, 12000)
+calisan2 = Calisan("56745432109", "Ayşe", "Kara", 28, "Kadın", "Türk", "Muhasebe", 5, 30000)
+calisan3 = Calisan("17498901234", "Mehmet", "Demir", 35, "Erkek", "Türk", "Üretim", 9, 10000)
 
 # Nesneleri ekrana yazdırma
 print(calisan1)
