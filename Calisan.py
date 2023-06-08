@@ -36,10 +36,10 @@ class Calisan(Insan):
                 zam = 0
                 self.__yeni_maas = self.get_maas() + (self.get_maas() * zam / 100)
             elif 2 <= self.__tecrube <= 4 and self.__maas < 15000:
-                zam = ((self.__maas % self.__tecrube)  + self.__maas)
+                zam = (self.__maas % self.__tecrube)
                 self.__yeni_maas = self.get_maas() + (self.get_maas() * zam / 100)
             elif self.__tecrube > 4 and self.__maas < 25000:
-                zam = (((self.__maas % self.__tecrube) / 2) + self.__maas)
+                zam = ((self.__maas % self.__tecrube) / 2)
                 self.__yeni_maas = self.get_maas() + (self.get_maas() * zam / 100)
             else:
                 self.__yeni_maas = self.get_maas()
