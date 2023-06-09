@@ -75,7 +75,7 @@ def yil_cevir(ay):
     yil = round(yil, 2)
     return yil
 
-# Database'i ekrana duzgun yazdirmak icin ayar
+# Dataframe'i ekrana duzgun yazdirmak icin ayar
 pd.set_option('display.max_columns',20)
 pd.set_option('display.max_rows',13)
 
@@ -96,13 +96,13 @@ data = {
     'yeni maas': [calisan1.get_yeni_maas(), calisan2.get_yeni_maas(), calisan3.get_yeni_maas(), mavi_yaka1.get_yeni_maas(), mavi_yaka2.get_yeni_maas(), mavi_yaka3.get_yeni_maas(), beyaz_yaka1.get_yeni_maas(), beyaz_yaka2.get_yeni_maas(), beyaz_yaka3.get_yeni_maas()]
 }
 
-# Sozluk ile database olusturma
+# Sozluk ile dataframe olusturma
 df = pd.DataFrame(data)
 
 # Bos yerlere sifir atama
 df = df.fillna(0)
 
-# Database'i ekrana yazdir
+# Dataframe'i ekrana yazdir
 print(df)
 print("")
 print("")
